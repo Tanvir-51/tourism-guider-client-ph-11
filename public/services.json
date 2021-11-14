@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Paris",
+        "description": "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture.",
+        "img": "http://www.themeenergy.com/themes/html/book-your-travel/images/uploads/paris.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Amsterdam",
+        "description": "Amsterdam is the Netherlands’ capital, known for its artistic heritage, elaborate canal system. ",
+        "img": "http://www.themeenergy.com/themes/html/book-your-travel/images/uploads/amsterdam.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Prague",
+        "description": "Prague, capital city of the Czech Republic.it's known for its Old Town Square, the heart of its historic core",
+        "img": "http://www.themeenergy.com/themes/html/book-your-travel/images/uploads/prague.jpg"
+    },
+    {
+        "id": 4,
+        "name": "St Petersburg",
+        "description": "St. Petersburg is a Russian port city on the Baltic Sea.It remains Russia's cultural center, with venues such as the Mariinsky Theatre hosting opera and balle",
+        "img": "http://www.themeenergy.com/themes/html/book-your-travel/images/uploads/saint-petersburg.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Rome",
+        "description": "Rome is the capital city of Italy. It is also the capital of the Lazio region,the centre of the Metropolitan City of Rome and also known as Comune di Roma Capitale.",
+        "img": "https://www.planetware.com/photos-large/I/italy-colosseum-day.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Swiss Alps",
+        "description": "Switzerland is a mountainous Central European country, home to numerous lakes, villages and the high peaks of the Alps.",
+        "img": "https://www.touropia.com/gfx/d/small-towns-in-switzerland/lauterbrunnen.jpg"
+    },
+    {
+        "id": 7,
+        "name": "London",
+        "description": "London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times.",
+        "img": "https://www.flightexpert.com/blog/wp-content/uploads/2018/04/Top-places-to-visit-in-London.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Florence",
+        "description": "Florence, capital of Italy’s Tuscany region, is home to many masterpieces of Renaissance art and architecture.",
+        "img": "https://www.planetware.com/photos-large/I/italy-florence-cathedral-of-santa-maria-del-fiore.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Barcelona",
+        "description": "Barcelona, the cosmopolitan capital of Spain’s Catalonia region, is known for its art, architecture and Football ",
+        "img": "https://img.itinari.com/pages/images/original/6bc83f35-ac2e-4791-b95c-dfb20e7427bf-istock-518030534.jpg?ch=DPR&dpr=1&w=1600&s=e0e0494a4fb98a43833152c85909e5ed"
+    }
+]
