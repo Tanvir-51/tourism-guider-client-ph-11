@@ -13,7 +13,7 @@ const MyOrder = (props) => {
   const { user } = useAuth();
 
   useEffect(() => {
-    fetch("http://localhost:5000/orders")
+    fetch("https://arcane-headland-98633.herokuapp.com/orders")
       .then((res) => res.json())
       .then((data) => {
         const userOrders = data.filter((order) => order.email === user.email);
@@ -31,7 +31,7 @@ const MyOrder = (props) => {
     }).then((willDelete) => {
       if (willDelete) {
         const newArr = orders.filter((x) => x._id !== id);
-        fetch(`http://localhost:5000/orders/${id}`, {
+        fetch(`https://arcane-headland-98633.herokuapp.com/orders/${id}`, {
           method: "delete",
         })
           .then((res) => res.json())

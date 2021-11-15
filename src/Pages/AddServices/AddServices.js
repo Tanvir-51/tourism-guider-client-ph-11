@@ -11,12 +11,14 @@ const AddServices = () => {
   } = useForm();
 
   const onSubmit = (data) => {
-    axios.post("http://localhost:5000/services", data).then((res) => {
-      if (res.data.insertedId) {
-        alert("Added Successfully");
-        reset();
-      }
-    });
+    axios
+      .post("https://arcane-headland-98633.herokuapp.com/services", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          alert("Added Successfully");
+          reset();
+        }
+      });
   };
   return (
     <div>

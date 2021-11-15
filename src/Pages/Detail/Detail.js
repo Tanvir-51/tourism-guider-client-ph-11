@@ -11,7 +11,7 @@ const Detail = () => {
   const { user } = useAuth();
 
   useEffect(() => {
-    fetch("http://localhost:5000/services")
+    fetch("https://arcane-headland-98633.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => {
         // setServices(data);
@@ -37,7 +37,7 @@ const Detail = () => {
     visibility: "hidden",
   };
   useEffect(() => {
-    fetch("http://localhost:5000/services")
+    fetch("https://arcane-headland-98633.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => {
         setServices(data);
@@ -55,7 +55,7 @@ const Detail = () => {
     data.serviceName = singleService.name;
 
     data.status = "pending";
-    fetch("http://localhost:5000/orders", {
+    fetch("https://arcane-headland-98633.herokuapp.com/orders", {
       method: "POST",
       headers: {
         "content-type": "application/json",

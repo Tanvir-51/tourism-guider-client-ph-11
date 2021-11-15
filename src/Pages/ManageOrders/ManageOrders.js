@@ -6,7 +6,7 @@ const ManageOrders = () => {
 
   // load all booking
   useEffect(() => {
-    fetch("http://localhost:5000/orders")
+    fetch("https://arcane-headland-98633.herokuapp.com/orders")
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, [orders]);

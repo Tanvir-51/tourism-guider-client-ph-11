@@ -9,7 +9,7 @@ const ManageOrder = (props) => {
 
   // load all bookings
   useEffect(() => {
-    fetch("http://localhost:5000/orders")
+    fetch("https://arcane-headland-98633.herokuapp.com/orders")
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, [orders]);
@@ -25,7 +25,7 @@ const ManageOrder = (props) => {
     }).then((willDelete) => {
       if (willDelete) {
         const newArr = orders.filter((order) => order._id !== id);
-        fetch(`http://localhost:5000/orders/${id}`, {
+        fetch(`https://arcane-headland-98633.herokuapp.com/orders/${id}`, {
           method: "delete",
         })
           .then((res) => res.json())
@@ -61,7 +61,7 @@ const ManageOrder = (props) => {
           return order;
         });
 
-        fetch(`http://localhost:5000/orders/${id}`, {
+        fetch(`https://arcane-headland-98633.herokuapp.com/orders/${id}`, {
           method: "put",
           headers: {
             "content-type": "application/json",
