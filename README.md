@@ -13,3 +13,7 @@ The live link of the website [Tourism Guider](https://tourism-guider.web.app)
 - Visitors can recomand new services according to their own taste.
 - User can see their order status whether it has been processed or not.
 - User with admin permission can manage orders.
+-	Implemented React Router.
+-	Implemented user dashboard and CRUD operations.
+-	Got backend data from Heroku to UI.
+
